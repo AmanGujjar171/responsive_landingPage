@@ -1,0 +1,515 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+body {
+        background-color: #2B2B2B;
+        color: white;
+        font-family: "Work Sans", sans-serif;
+}
+
+.navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+
+}
+
+.img {
+        width: 2vw;
+}
+
+.navbarHeading {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 18vw;
+}
+
+.navbarHeading h1 {
+        font-weight: 600;
+        font-size: 1.5vw;
+        cursor: pointer;
+        font-family: "Space Mono", monospace;
+}
+
+.navbarPagesHeading {
+        width: 40vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+}
+
+.navbarPagesHeading li {
+        list-style: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-size: 1vw;
+}
+
+.sign-upbtn {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: "Work Sans", sans-serif;
+        background-color: #A259FF;
+        border-radius: 1.2vw;
+        width: 9vw;
+        height: 7vh;
+}
+
+.sign-upbtn button {
+        border: none;
+        color: white;
+        background-color: #A259FF;
+        font-weight: 500;
+        font-family: "Work Sans", sans-serif;
+        font-size: 1vw;
+}
+
+/* navbar is compelted */
+
+/* middle section is started */
+
+.middleSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.img1 {
+        width: 45vw;
+        height: 90vh;
+}
+
+.form {
+        width: 47vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+}
+
+.form h1 {
+        font-size: 3.1vw;
+}
+
+.form p {
+        font-size: 1.5vw;
+        width: 30vw;
+}
+
+.username {
+        border: 1px solid;
+        border-radius: 10vw;
+        height: 5vh;
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+}
+
+.username input {
+        border: none;
+        width: 17vw;
+        height: 4vh;
+        color: #2B2B2B;
+        font-size: 1vw;
+        font-weight: 500;
+        outline: none;
+}
+
+.userimg {
+        width: 1.2vw;
+}
+
+.email {
+        border: 1px solid;
+        border-radius: 10vw;
+        height: 5vh;
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+}
+
+.emailimg {
+        width: 1.2vw;
+}
+
+.email input {
+        border: none;
+        width: 17vw;
+        height: 4vh;
+        color: #2B2B2B;
+        font-size: 1vw;
+        font-weight: 500;
+        outline: none;
+}
+
+.password {
+        border: 1px solid;
+        border-radius: 10vw;
+        height: 5vh;
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+}
+
+.passwordimg {
+        width: 1.2vw;
+}
+
+.password input {
+        border: none;
+        width: 17vw;
+        height: 4vh;
+        color: #2B2B2B;
+        font-size: 1vw;
+        font-weight: 500;
+        outline: none;
+}
+
+.confirmPassword {
+        border: 1px solid;
+        border-radius: 10vw;
+        height: 5vh;
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+}
+
+.confirmPasswordimg {
+        width: 1.2vw;
+}
+
+.confirmPassword input {
+        border: none;
+        width: 17vw;
+        height: 4vh;
+        color: #2B2B2B;
+        font-size: 1vw;
+        font-weight: 500;
+        outline: none;
+}
+
+.form button {
+        border: none;
+        border-radius: 10vw;
+        width: 20vw;
+        height: 5vh;
+        background-color: #A259FF;
+        color: white;
+        font-size: 1vw;
+        font-weight: 600;
+        cursor: pointer;
+}
+
+/* middle section  completed*/
+
+/* footer is started */
+
+.footer {
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 5vh;
+}
+
+.footerimg {
+        width: 2vw;
+}
+
+.row1 {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.row1 p {
+        width: 15vw;
+        color: #858584;
+        font-size: 1vw;
+}
+
+.row2 {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+
+.row2 h1 {
+        font-family: "Space Mono", monospace;
+        font-size: 1.8vw;
+}
+
+.row2 p {
+        width: 15vw;
+        color: #858584;
+        font-size: 1vw;
+}
+
+.row3 {
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+
+.row3 p {
+        width: 20vw;
+        color: #858584;
+        font-size: 1vw;
+
+}
+
+.row3 h1 {
+        font-family: "Space Mono", monospace;
+        font-size: 1.8vw;
+
+}
+
+.subscribebtn {
+        height: 7vh;
+        display: flex;
+        width: 25vw;
+}
+
+.subscribebtn input {
+        border-radius: 1vw;
+        border: none;
+        outline: none;
+        color: #2B2B2B;
+        font-weight: 600;
+        font-size: 1vw;
+        height: 7vh;
+        width: 25vw;
+        position: absolute;
+        z-index: 0;
+}
+
+.subscribebtn button {
+        border-radius: 1vw;
+        height: 7vh;
+        font-weight: 600;
+        font-size: 1vw;
+        border: none;
+        color: white;
+        width: 10vw;
+        background-color: #A259FF;
+        font-weight: 600;
+        position: absolute;
+        right: 6.8vw;
+        z-index: 1;
+        cursor: pointer;
+}
+
+/* footer is completed */
+
+/* media queries is started */
+
+/* navbar media query */
+
+.menu {
+        display: none;
+        width: 5vw;
+        height: 5vw;
+}
+
+@media (max-width:850px) {
+        .menu {
+                display: flex;
+
+        }
+
+        .img {
+                width: 6vw;
+        }
+
+        .navbar {
+                height: 8vh;
+                
+        }
+
+        .navbarHeading {
+                width: 50vw;
+                display: flex;
+                align-items: center;
+        }
+
+        .navbarHeading h1 {
+                font-size: 4vw;
+                width: 35vw;
+        }
+
+        .navbarPagesHeading {
+                display: none;
+        }
+
+        /* middle section */
+        .img1 {
+                width: 50%;
+                /* height: 70%; */
+        }
+
+        .form {
+                height: 75vh;
+        }
+
+        .form h1 {
+                font-size: 5vw;
+        }
+
+        .form p {
+                font-size: 2vw;
+                width: 80%;
+        }
+
+        .username {
+                width: 40vw;
+                height: 8vh;
+        }
+
+        .username input {
+                font-size: 3vw;
+                width: 30vw;
+        }
+
+        .userimg {
+                width: 4vw;
+        }
+
+        .email {
+                width: 40vw;
+                height: 8vh;
+        }
+
+        .email input {
+                font-size: 3vw;
+                width: 30vw;
+        }
+
+        .emailimg {
+                width: 4vw;
+
+        }
+
+        .password {
+                width: 40vw;
+                height: 8vh;
+        }
+
+        .password input {
+                font-size: 3vw;
+                width: 30vw;
+        }
+
+        .passwordimg {
+                width: 4vw;
+
+        }
+
+        .confirmPassword {
+                width: 40vw;
+                height: 8vh;
+        }
+
+        .confirmPassword input {
+                font-size: 3vw;
+                width: 30vw;
+        }
+
+        .confirmPasswordimg {
+                width: 4vw;
+        }
+
+        .form button {
+                width: 40vw;
+                font-size: 3vw;
+                height: 8vh;
+        }
+
+        /* footer */
+        .footer {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                height: 80vh;
+                width: 100vw;
+                position: relative;
+                left: 6vw;
+        }
+
+        .footerimg {
+                width: 5vw;
+        }
+
+        .row1 {
+                width: 50vw;                
+        }
+
+        .row1 p {
+                width: 100%;
+                font-size: 2vw;
+        }
+        .row2 {
+                width: 50vw;                
+        }
+        .row2 h1{
+                font-size: 3.5vw;
+        }
+        .row2 p {
+                width: 100%;
+                font-size: 2vw;
+        }
+        .row3 {
+                width: 60vw;                
+        }
+        .row3 h1{
+                font-size: 3.5vw;
+        }
+        .row3 p {
+                width: 100%;
+                font-size: 2vw;
+        }
+        .subscribebtn{
+                width: 50vw;
+                height: 10vh;
+        }
+        .subscribebtn input{
+                border-radius: 2vw;
+                width: 40vw;
+                height: 9vh;
+                font-size: 2.5vw;
+                font-weight: 100;
+        }
+
+        .subscribebtn button{
+                border-radius: 2vw;
+                position: relative;
+                left: 35vw;
+                width: 20vw;
+                height: 9vh;
+                font-size: 2.5vw;
+                font-weight: 100;
+        }
+
+
+
+}
